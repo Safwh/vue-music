@@ -1,0 +1,12 @@
+@import "./variable.scss";
+
+body,
+html {
+  line-height: 1; // 行高等于字体大小
+  font-family: "PingFang SC", "STHeitiSC-Light", "Helvetica-Light", arial,
+    sans-serif, "Droid Sans Fallback";
+  user-select: none; // 元素及其子元素的文本不可选中
+  -webkit-tap-highlight-color: transparent; // 点击链接的时候出现的高亮颜色
+  background-color: $color-background;
+  color: $color-text;
+}
